@@ -17,7 +17,8 @@ const app = express();
 app.get("/", (req, res) => {
     res.json({
         success: true,
-        message: "Welcome to the Line Bot"
+        message: "Welcome to the Line Bot",
+        author: "m.anangnur@gmail.com"
     });
 });
 
