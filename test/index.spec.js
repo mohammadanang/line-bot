@@ -11,7 +11,7 @@ describe('TESTING', () => {
             .end(function (err, res) {
                 expect(res.statusCode).to.equal(200);
                 expect(res.body).to.be.an('object');
-                expect(res.body.success).to.equal(false);
+                expect(res.body.success).to.equal(true);
                 done();
             });
     });
