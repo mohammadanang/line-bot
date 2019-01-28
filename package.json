@@ -4,7 +4,7 @@
   "description": "Line Bot Development",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "mocha --exit"
   },
   "author": "m.anangnur@gmail.com",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
     "supertest": "^3.4.2"
   }
 }
