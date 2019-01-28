@@ -4,3 +4,14 @@ node_js:
 cache:
   directories:
     - "node_modules"
+ branches:
+  only:
+    - master
+    - develop
+deploy:
+  provider: heroku
+  api_key:
+    secure: cfc9dffb-2d08-430a-9711-510b67999b6c
+  app: line-bot
+  on:
+    repo: mohammadanang/line-bot
